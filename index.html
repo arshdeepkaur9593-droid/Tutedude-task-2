@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah - Laundry Mart</title>
+</head>
+
+<body>
+    <header>
+        <h1>Laundry Wallah</h1>
+        <p>Your trusted partner for clean and fresh clothes</p>
+        <nav>
+            <a href="#services">Services</a> |
+            <a href="#pricing">Pricing</a> |
+            <a href="#booking">Book a Service</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h2>Welcome to Laundry Wallah</h2>
+            <p>We make laundry simple, convenient, and affordable. Choose a service and let us take care of your
+                clothes.</p>
+            <img src="images/Laundry img.jpg" alt="Laundry service" width="600">
+        </section>
+
+        <hr>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Washing</li>
+                <li>Dry Cleaning</li>
+                <li>Ironing</li>
+                <li>Folding</li>
+                <li>Express Laundry</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="pricing">
+            <h2>Price List</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Washing</td>
+                        <td>Wash and clean clothes</td>
+                        <td>₹50 per kg</td>
+                    </tr>
+                    <tr>
+                        <td>Dry Cleaning</td>
+                        <td>Special care for delicate clothes</td>
+                        <td>₹100 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Ironing</td>
+                        <td>Neatly pressed clothes</td>
+                        <td>₹10 per item</td>
+                    </tr>
+                    <tr>
+                        <td>Folding</td>
+                        <td>Clean and neatly folded clothes</td>
+                        <td>₹20 per kg</td>
+                    </tr>
+                    <tr>
+                        <td>Express Laundry</td>
+                        <td>Priority laundry service</td>
+                        <td>₹150 per order</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="booking">
+            <h2>Book a Laundry Service</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+                <p>
+                    <label for="service">Choose a Service:</label><br>
+                    <select id="service" name="service" required>
+                        <option value="">-- Select a service --</option>
+                        <option value="washing">Washing</option>
+                        <option value="dry-cleaning">Dry Cleaning</option>
+                        <option value="ironing">Ironing</option>
+                        <option value="folding">Folding</option>
+                        <option value="express">Express Laundry</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="date">Preferred Pickup Date:</label><br>
+                    <input type="date" id="date" name="date" required>
+                </p>
+                <p>
+                    <label for="address">Pickup Address:</label><br>
+                    <textarea id="address" name="address" rows="4" cols="35" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Book Now</button>
+                    <button type="reset">Reset Form</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@laundrywallah.example</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Address: Chandigarh, India</p>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Laundry Wallah. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
